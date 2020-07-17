@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.main-visual{
+	width: 100%;
+	height: 400px;
+	background-image: url(img/mvv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-visual-text{
+	float: left;
+	margin: 20px 20px;
+}
+
+.main{
+	width: 840px;
+	margin: 50px auto;
+	text-align: left;
+}
+
+.blog-box{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid
+}
+
+.blog-title{
+}
+
+.blog-text{
+	text-align:left;
+}
