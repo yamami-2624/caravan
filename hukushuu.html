@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <script src="https://kit.fontawesome.com/669be045a6.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="hukushuu.css">
+ <title>MySite</title>
+</head>
+<body>
+	<header>
+		    <div class="container clearfix"> <!-- float: left; -->
+			<a href="#mv"><img class="logo" src="img/logo.png" alt="ロゴ"></a>
+			<div class="menu-box">
+				<span class="list-bar"></span>
+				<span class="list-bar"></span>
+				<span class="list-bar"></span>
+			</div>
+			<nav>
+				<ul class="nav"> <!-- float: right; -->
+					<li class="nav-list"><a href="#portfolio">Portfolio</a></li> <!-- float: left; -->
+					<li class="nav-list"><a href="#feature">Feature</a></li>
+					<li class="nav-list"><a href="#profile">Profile</a></li>
+					<li class="nav-list"><a href="#contact">Contact</a></li>
+					<!-- a href="#"とすることでそのページに飛んでいける -->
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- main-visual用のdiv -->
+	<section id="mv">
+     <div class="main-visual">
+      <div class="main-visual-content">
+        <p class="main-visual-text">Lorem Ipsum</p>
+        <!-- <p>タグは段落を表す、ひとかたまりにするべき文章はpタグで表す -->
+        <p class="main-visual-text-name">simply dummy text of printing</p>
+      </div>
+     </div>
+    </section>
+
+  <!-- main用のdiv -->
+ <section id="portfolio">
+  <div class="main">
+   <div class="main clearfix">
+  		<p class="main-text">Portforio</p>
+  		<p class="main-text-name">
+  		It is a long established fact that a reader will be distracted by the readable</br>
+  		content of a page when looking at its layout.</br>
+  		The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</br>
+  		</p>
+  </div>
+  <div class="main-content">
+  	<div class="blog-item clearfix">
+       <img class="blog-image" src="img/sketch.jpg"><
+       <img class="blog-image" src="img/websuku.png">
+       <img class="blog-image" src="img/write.jpg">
+       <img class="blog-image" src="img/webcamp.png">
+       <img class="blog-image" src="img/talk.jpg">
+       <img class="blog-image" src="img/webcamp-mother.png">
+       <!-- HTML側で写真を挿入する方法 -->
+    </div>
+　</div>
+</div>
+</section>
+
+<section id="feature">
+   <div class="container clearfix">
+   	<div class=feature-content>
+   	<!-- floatを使う要素全てを含んだ親要素にclearfixを入れる -->
+	 <div class="main-text">Feature</div>
+	 <div class="main-text-name">
+	  It is a long established fact that a reader will be distracted by the readable</br>
+      content of a page when looking at its layout.</br>
+      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+     </div>
+
+     <div class="feature-content-1">
+   	 <i class="fab fa-facebook-square fa-4x"></i>
+   	 <div class="feature-content-name">Strength1</div>
+   	 <div class="feature-content-body">
+   	  Contrary to popular belief, Lorem Ipsum</br>
+   	  is not simply random text. It has roots</br>
+   	  in a piece of classical Latin literature</br>
+   	  from 45 BC, making it over 2000 years</br>
+   	  old. Richard McClintock, a Latin</br>
+   	  professor at Hampden-Sydney College</br>
+   	  in Virginia, looked up one of the more</br>
+   	  obscure Latin words, consectetur</br>
+     </div>
+    </div>
+
+    <div class="feature-content-2">
+  	<i class="fab fa-twitter-square fa-4x"></i>
+  	<div class="feature-content-name">Strength2</div>
+  	<div class="feature-content-body">
+  		Contrary to popular belief, Lorem Ipsum</br>
+  		is not simply random text. It has roots</br>
+  		in a piece of classical Latin literature</br>
+  		from 45 BC, making it over 2000 years</br>
+  		old. Richard McClintock, a Latin</br>
+  		professor at Hampden-Sydney College</br>
+  		in Virginia, looked up one of the more</br>
+  		obscure Latin words, consectetur</br>
+  	</div>
+  </div>
+
+  <div class="feature-content-3">
+  	<i class="fab fa-instagram fa-4x"></i>
+  	<div class="feature-content-name">Strength3</div>
+  	<div class="feature-content-body">
+  		Contrary to popular belief, Lorem Ipsum</br>
+  		is not simply random text. It has roots</br>
+  		in a piece of classical Latin literature</br>
+  		from 45 BC, making it over 2000 years</br>
+  		old. Richard McClintock, a Latin</br>
+  		professor at Hampden-Sydney College</br>
+  		in Virginia, looked up one of the more</br>
+  		obscure Latin words, consectetur</br>
+  	</div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- <section id="profile">
+<div class="pofile">
+  <div class="main-profile">
+   <div class="main clearfix">
+  		<p class="main-text">Profile</p>
+  		<p class="main-text-name">
+  		 It is a long established fact that a reader will be distracted by the readable</br>
+         content of a page when looking at its layout.</br>
+         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</br>
+  		</p>
+   </div>
+   <div class="profile clearfix">
+   	<img class="profile-image" src="img/my-icon.jpg">
+   	<div class="profile-name">MyName</div></br>
+   	<div class="profile-body">
+   		Contrary to popular belief, Lorem Ipsum is not simply random</br>
+   		text. It has roots in a piece of classical Latin literature from 45</br>
+   		BC, making it over 2000 years old. Richard McClintock, a Latin</br>
+   		professor at Hampden-Sydney College in Virginia, looked up</br>
+   		one of the more obscure Latin words, consectetur</br>
+   	</div>
+   	<div class="profile-title">MySkills</div></div>
+   	<div class="profile-title-body">HTML/CSS,JavaScript,JQuery,PhotoShop</div>
+   </div>
+  </div>
+</div>
+</section> -->
+
+<section id="profile">
+		<div class="container">
+			<h2 class="main-text">Profile</h2>
+			<p class="main-text-name">It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="sp-none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+			<div class="profile-group clearfix">
+				<div class="left-content">
+					<div class="my-face"></div>
+				</div>
+				<div class="right-content">
+					<h3 class="discription-title">MyName</h3>
+					<p class="discription-text">
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+					</p>
+					<h3 class="discription-title">MySkills</h3>
+					<p class="discription-text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2 class="main-text">Contact</h2>
+			<p class="main-text-name">It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="sp-none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+			<div class="contact-group clearfix">
+				<div class="left-content">
+					<div class="left-contact-content">
+						<h3 class="discription-title">Mail</h3>
+						<a class="discription-text link-text" href="mailto:xxx&#64;xxx.com">xxx&#64;xxx.com</a>
+						<h3 class="discription-title">Tel</h3>
+						<a class="discription-text link-text" href="tel:00000000000">000-0000-0000</a>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="right-contact-content">
+						<h3 class="discription-title">SNS</h3>
+						<i class="fa fa-facebook fa-5x" aria-hidden="true"></i>
+						<i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+						<i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--======== footer ========-->
+
+	<footer>
+		<p class="copyright">©︎ 2017 WebCamp</p>
+	</footer>
+
+	<!-- Font-Awesomeの読み込み -->
+	<script src="https://use.fontawesome.com/2fd86bc506.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+    <div class="blog"></div>
+    <div class="sidebar"></div>
+  </div>
+	<footer>
+		©2017 WebCamp
+	</footer>
+
+</body>
+</html>

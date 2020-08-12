@@ -22,6 +22,9 @@ header{
 main{
 	margin: 50px auto;
 	width: 960px;
+	display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 }
 
 
@@ -32,17 +35,17 @@ main{
 	}
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:768px){
 	main{
 		margin: 50px auto;
-		width: 100%;
+		width: 100%;display: flex;
 	}
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:425px){
 	main{
 		margin: 50px auto;
-		width: 100%;
+		width: 100%;display: flex;
 	}
 }
 
@@ -97,18 +100,21 @@ main{
 @media screen and (max-width:1024px){
 	.main-contents:last-child{
 		margin:auto;
+		display: flex;
 	}
 }
 
 @media screen and (max-width:768px){
 	.main-contents:last-child{
 		margin:auto;
+		display: flex;
 	}
 }
 
 @media screen and (max-width:425px){
 	.main-contents:last-child{
 		margin:auto;
+		display: flex;
 	}
 }
 
@@ -156,4 +162,6 @@ footer{
 	width: 100%;
 	height: 50px;
 	background-color: #aaaaaa;
+	position: absolute;
+
 }
